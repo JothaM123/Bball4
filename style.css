@@ -1,0 +1,19 @@
+body{
+    overflow:hidden;
+    background:black;
+    color:white;
+    font-family:consolas;
+}
+
+image{
+    z-index:-1;
+}
+
+
+#over{
+    position:fixed;
+    width:100%;
+    height:100%;
+    background:rgba(255, 255, 255, 0.0);
+    backdrop-filter:blur(10px);
+}
