@@ -210,5 +210,5 @@ function qr(){
         
     });
     var q= new QRCode("qr");
-    q.makeCode("https://jotham123.github.io/congenial-octo-spoon/");
+    q.makeCode("https://jotham123.github.io/Bball4/");
 }
