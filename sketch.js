@@ -203,12 +203,12 @@ function mouseDragged(){
 function qr(){
 
    
-    
+    p.play();
     Swal.fire({
         title:'QR code',
         html:"<center><div id = 'qr'></div></center>",
         
-    });
+    }).then(()=>{p.play();})
     var q= new QRCode("qr");
     q.makeCode("https://jotham123.github.io/Bball4/");
 }
